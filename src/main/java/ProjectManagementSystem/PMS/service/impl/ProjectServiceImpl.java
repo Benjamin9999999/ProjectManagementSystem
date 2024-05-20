@@ -55,7 +55,7 @@ public class ProjectServiceImpl implements ProjectService {
     }
 
     @Override
-    public List<ProjectEntity> deleteAllProjects(List<ProjectEntity> projectEntities) {
+    public List<ProjectEntity> deleteAllProjects(p) {
         for (ProjectEntity projectEntity : projectEntities) {
             projectEntityRepo.delete(projectEntity);
 
